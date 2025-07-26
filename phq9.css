@@ -1,0 +1,107 @@
+/* 📋 PHQ-9 Test Styles */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.question {
+  background-color: #f1f7fb;
+  border: 1px solid #d4e4f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.question p {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.1);
+}
+
+button[type="submit"] {
+  background-color: #1e88e5;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1565c0;
+}
+
+/* 📊 Result Box */
+.result-box {
+  margin-top: 40px;
+  background-color: #e3f2fd;
+  border-left: 6px solid #2196f3;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.result-links a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.result-links a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+}

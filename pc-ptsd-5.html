@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PC-PTSD-5 Test</title>
+  <link rel="stylesheet" href="pc-ptsd-5.css" />
+</head>
+<body>
+
+  <header>
+    <h1>PC-PTSD-5 Screening</h1>
+    <p>This tool screens for Post-Traumatic Stress Disorder (PTSD).</p>
+  </header>
+
+  <main>
+    <form id="ptsd-form">
+      <div class="question">
+        <p>1. Have you ever had any experience that was so frightening, horrible, or upsetting that you have nightmares about it or thought about it when you did not want to?</p>
+        <label><input type="radio" name="q1" value="1"> Yes</label>
+        <label><input type="radio" name="q1" value="0"> No</label>
+      </div>
+
+      <div class="question">
+        <p>2. Tried hard not to think about it or avoided situations that reminded you of it?</p>
+        <label><input type="radio" name="q2" value="1"> Yes</label>
+        <label><input type="radio" name="q2" value="0"> No</label>
+      </div>
+
+      <div class="question">
+        <p>3. Been constantly on guard, watchful, or easily startled?</p>
+        <label><input type="radio" name="q3" value="1"> Yes</label>
+        <label><input type="radio" name="q3" value="0"> No</label>
+      </div>
+
+      <div class="question">
+        <p>4. Felt numb or detached from people, activities, or surroundings?</p>
+        <label><input type="radio" name="q4" value="1"> Yes</label>
+        <label><input type="radio" name="q4" value="0"> No</label>
+      </div>
+
+      <div class="question">
+        <p>5. Felt guilty or unable to stop blaming yourself or others for the event or any problems the event may have caused?</p>
+        <label><input type="radio" name="q5" value="1"> Yes</label>
+        <label><input type="radio" name="q5" value="0"> No</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result" class="result-box" style="display: none;"></div>
+  </main>
+
+  <script src="pc-ptsd-5.js"></script>
+</body>
+</html>

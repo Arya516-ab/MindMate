@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ADHD Self-Test</title>
+  <link rel="stylesheet" href="adhd.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ADHD Self-Test (ASRS)</h1>
+    <p>This questionnaire helps screen for symptoms of Adult ADHD.</p>
+  </header>
+
+  <main>
+    <form id="adhd-form">
+      <div class="question">
+        <p>1. How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?</p>
+        <label><input type="radio" name="q1" value="0"> Never</label>
+        <label><input type="radio" name="q1" value="1"> Rarely</label>
+        <label><input type="radio" name="q1" value="2"> Sometimes</label>
+        <label><input type="radio" name="q1" value="3"> Often</label>
+        <label><input type="radio" name="q1" value="4"> Very Often</label>
+      </div>
+
+      <div class="question">
+        <p>2. How often do you have difficulty getting things in order when you have to do a task that requires organization?</p>
+        <label><input type="radio" name="q2" value="0"> Never</label>
+        <label><input type="radio" name="q2" value="1"> Rarely</label>
+        <label><input type="radio" name="q2" value="2"> Sometimes</label>
+        <label><input type="radio" name="q2" value="3"> Often</label>
+        <label><input type="radio" name="q2" value="4"> Very Often</label>
+      </div>
+
+      <div class="question">
+        <p>3. When you have a task that requires a lot of thought, how often do you avoid or delay getting started?</p>
+        <label><input type="radio" name="q3" value="0"> Never</label>
+        <label><input type="radio" name="q3" value="1"> Rarely</label>
+        <label><input type="radio" name="q3" value="2"> Sometimes</label>
+        <label><input type="radio" name="q3" value="3"> Often</label>
+        <label><input type="radio" name="q3" value="4"> Very Often</label>
+      </div>
+
+      <div class="question">
+        <p>4. How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?</p>
+        <label><input type="radio" name="q4" value="0"> Never</label>
+        <label><input type="radio" name="q4" value="1"> Rarely</label>
+        <label><input type="radio" name="q4" value="2"> Sometimes</label>
+        <label><input type="radio" name="q4" value="3"> Often</label>
+        <label><input type="radio" name="q4" value="4"> Very Often</label>
+      </div>
+
+      <div class="question">
+        <p>5. How often do you feel overly active and compelled to do things, like you were driven by a motor?</p>
+        <label><input type="radio" name="q5" value="0"> Never</label>
+        <label><input type="radio" name="q5" value="1"> Rarely</label>
+        <label><input type="radio" name="q5" value="2"> Sometimes</label>
+        <label><input type="radio" name="q5" value="3"> Often</label>
+        <label><input type="radio" name="q5" value="4"> Very Often</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result" class="result-box" style="display: none;"></div>
+  </main>
+
+  <script src="adhd.js"></script>
+</body>
+</html>

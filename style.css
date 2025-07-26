@@ -1,0 +1,309 @@
+/* Reset */
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+/* 🔷 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  color:black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 2 em;
+  font-weight: 100;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1em;
+}
+
+
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+/* 🌅 Landing */
+.landing {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.landing-image {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.landing h1 {
+  margin-top: 20px;
+  font-size: 1.8em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+}
+
+/* 💡 Tips Section */
+.tips-section {
+  padding: 40px 20px;
+  background-color: azure;
+  text-align: center;
+}
+
+.tips-section h2 {
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  color: black;
+}
+.tips-section h5 {
+    font-size: small;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tips-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tip-box {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 1.1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #37517e;
+  transition: transform 0.2s;
+}
+
+.tip-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+/* 🧪 Test Section */
+.test-section {
+  padding: 40px 20px;
+  background-color: #fdfdfd;
+  text-align: center;
+}
+
+.test-section h2 {
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.test-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.test-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.test-box h3 {
+  font-size: 1.4em;
+  color: #2d4059;
+}
+
+.test-box p {
+  font-size: 0.95em;
+  color:black;
+  margin: 15px 0;
+}
+
+.test-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.test-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #37517e;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: background-color 0.2s;
+}
+
+.test-button:hover {
+  background-color: #2c3e50;
+}
+/* 📚 Resources Section */
+.resources-section {
+  padding: 40px 20px;
+  background-color: #e8f4f8;
+  text-align: center;
+}
+
+.resources-section h2 {
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.resources {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.resource-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.resource-box h3 {
+  font-size: 1.3em;
+  color: #37517e;
+  margin-bottom: 10px;
+}
+
+.resource-box ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: black;
+}
+
+.resource-box a {
+  color: #37517e;
+  text-decoration: none;
+}
+
+.resource-box a:hover {
+  text-decoration: underline;
+}
+/* About Us / Footer */
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer h3 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-size: 0.95em;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 10px;
+  color: #ecf0f1;
+}
+  body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0f75d3;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
